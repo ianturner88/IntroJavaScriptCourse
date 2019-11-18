@@ -26,6 +26,7 @@ val = Number(null);
 val = Number('hello');
 
 val = parseInt('100.30');
+val = parseInt('100.30');
 
 // output
 console.log(val);
@@ -33,3 +34,10 @@ console.log(typeof val);
 //console.log(val.length);
 //decimal points
 console.log(val.toFixed(2));
+
+const val1 = 5;
+const val2 = 6;
+const sum = val1 + val2;
+
+console.log(sum);
+console.log(typeof sum);
