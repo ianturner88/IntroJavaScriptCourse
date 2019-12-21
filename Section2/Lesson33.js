@@ -14,6 +14,8 @@
 // //clear local storage
 // localStorage.clear();
 
+console.log(42);
+
 document.querySelector('form').addEventListener('submit', function(e){
     const task = document.getElementById('task').value;
 
