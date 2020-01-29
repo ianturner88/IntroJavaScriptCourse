@@ -16,7 +16,7 @@ const posts = [
 //             output += `<li>${post.title}</li>`;
 //         });
 //         document.body.innerHTML = output;
-//     }, 1000);
+//     }, 1000);g
 // }
 
 // createPost({title: 'Post Three', body: 'This is post three'});
